@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
-import Tweet from "./components/Tweet";
+import Twitter from "./components/Twitter";
 
 function App() {
   return (
     <div className="App">
       <h3>Reactwitter</h3>
-      <Tweet />
-      <Tweet />
-      <Tweet />
+      <Twitter />
     </div>
   );
 }

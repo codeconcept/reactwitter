@@ -1,6 +1,7 @@
 import React from "react";
 
 const Tweet = props => {
+  console.log("props", props);
   return (
     <div className="card" style={{ width: 300 }}>
       <div className="card-body">
