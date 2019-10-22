@@ -4,7 +4,7 @@ import Twitter from "./components/Twitter";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <h3>Reactwitter</h3>
       <Twitter />
     </div>

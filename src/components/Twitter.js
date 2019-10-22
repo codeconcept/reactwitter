@@ -17,7 +17,6 @@ class Twitter extends React.Component {
   render() {
     return (
       <div>
-        <h3>Welcome to Reactwitter</h3>
         {this.state.allTweets.map(t => (
           <Tweet content={t} key={t.id} />
         ))}
